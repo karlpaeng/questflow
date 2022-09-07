@@ -7,12 +7,14 @@ void main() {
         title: Text(
           'QuestFlow',
           style: TextStyle(
-            color: Colors.blueGrey[900],
+            //color: Colors.blueGrey[900],
+            fontFamily: 'Monsterrat',
+            fontSize: 35.0
           ),
 
         ),
-        centerTitle: true,
-        backgroundColor: Colors.amberAccent[700],
+        //centerTitle: true,
+        backgroundColor: Colors.greenAccent[400],
       ),
     ),
   ));
